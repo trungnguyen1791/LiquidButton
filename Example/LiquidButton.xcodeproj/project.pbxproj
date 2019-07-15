@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0355A06D94D9D905F732E7C1 /* Pods-LiquidButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-LiquidButton_Tests/Pods-LiquidButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1E9CE5D40B86C99FBC8A1734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E9CE5D40B86C99FBC8A1734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		36BC64EB8F908BFC4679BA05 /* Pods-LiquidButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-LiquidButton_Example/Pods-LiquidButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LiquidButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* LiquidButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		624C439F74AE611EA910CC57 /* LiquidButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LiquidButton.podspec; path = ../LiquidButton.podspec; sourceTree = "<group>"; };
+		624C439F74AE611EA910CC57 /* LiquidButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LiquidButton.podspec; path = ../LiquidButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DEDC3D57877642E36D263F8 /* Pods-LiquidButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LiquidButton_Tests/Pods-LiquidButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		866C0E6FD135672F5276901B /* Pods_LiquidButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiquidButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D690D4CFCA479FF9E3B1EEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D690D4CFCA479FF9E3B1EEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE5EF34FF5DF51603AB07BDD /* Pods_LiquidButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiquidButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FD80D5EC7A767B603E8939 /* Pods-LiquidButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidButton_Example.release.xcconfig"; path = "Target Support Files/Pods-LiquidButton_Example/Pods-LiquidButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				6DEDC3D57877642E36D263F8 /* Pods-LiquidButton_Tests.debug.xcconfig */,
 				0355A06D94D9D905F732E7C1 /* Pods-LiquidButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SF6R5X4246;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SF6R5X4246;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 36BC64EB8F908BFC4679BA05 /* Pods-LiquidButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF6R5X4246;
 				INFOPLIST_FILE = LiquidButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = E6FD80D5EC7A767B603E8939 /* Pods-LiquidButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF6R5X4246;
 				INFOPLIST_FILE = LiquidButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DEDC3D57877642E36D263F8 /* Pods-LiquidButton_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SF6R5X4246;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0355A06D94D9D905F732E7C1 /* Pods-LiquidButton_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SF6R5X4246;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

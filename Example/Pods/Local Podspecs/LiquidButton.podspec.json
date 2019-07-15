@@ -1,0 +1,22 @@
+{
+  "name": "LiquidButton",
+  "version": "0.1.0",
+  "summary": "A short description of LiquidButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/trungnguyen1791/LiquidButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "trungnguyen1791": "trungnguyen.1791@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/trungnguyen1791/LiquidButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LiquidButton/Classes/**/*"
+}
